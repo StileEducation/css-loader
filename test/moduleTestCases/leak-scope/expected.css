@@ -1,15 +1,15 @@
-._a_ {
+.source_a_ {
 	color: green;
-	animation: _a_;
+	animation: source_a_;
 }
 
-@keyframes _b_ {
+@keyframes source_b_ {
 	0% { left: 10px; }
 	100% { left: 20px; }
 }
 
-._b_ {
-	animation: _b_;
+.source_b_ {
+	animation: source_b_;
 }
 
 @keyframes c {
@@ -17,9 +17,9 @@
 	100% { left: 20px; }
 }
 
-._c_ {
-	animation: _c1_;
-	animation: _c2_, _c3_, _c4_;
+.source_c_ {
+	animation: source_c1_;
+	animation: source_c2_, source_c3_, source_c4_;
 }
 
 @keyframes d {
@@ -33,5 +33,5 @@
 }
 
 .d2 {
-	animation: _d2_;
+	animation: source_d2_;
 }

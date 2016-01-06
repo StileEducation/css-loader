@@ -1,8 +1,8 @@
-._a_ {
+.source_a_ {
 	color: green;
 }
 
-@keyframes _bounce_ {
+@keyframes source_bounce_ {
 	0% {
 		transform: translateY(-100%);
 		opacity: 0;
@@ -13,7 +13,7 @@
 	}
 }
 
-@-webkit-keyframes _bounce2_ {
+@-webkit-keyframes source_bounce2_ {
 	0% {
 		transform: translateY(-100%);
 		opacity: 0;
@@ -24,25 +24,25 @@
 	}
 }
 
-._bounce_ {
-	animation-name: _bounce_;
-	animation: _bounce2_ 1s ease;
+.source_bounce_ {
+	animation-name: source_bounce_;
+	animation: source_bounce2_ 1s ease;
 }
 
-._bounce2_ {
+.source_bounce2_ {
 	color: green;
-	animation: _bounce_ 1s ease;
-	animation-name: _bounce2_;
+	animation: source_bounce_ 1s ease;
+	animation-name: source_bounce2_;
 }
 
-._bounce3_ {
-	animation: _bounce_ 1s ease, _bounce2_
+.source_bounce3_ {
+	animation: source_bounce_ 1s ease, source_bounce2_
 }
 
-._bounce4_ {
-	animation: _bounce_ 1s ease, _bounce2_;
+.source_bounce4_ {
+	animation: source_bounce_ 1s ease, source_bounce2_;
 }
 
-._b_ {
+.source_b_ {
 	color: green;
 }

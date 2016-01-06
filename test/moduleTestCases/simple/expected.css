@@ -1,11 +1,11 @@
-._a_ ._b_, ._c_ ._d_, #_id_ {
+.source_a_ .source_b_, .source_c_ .source_d_, #source_id_ {
 	color: green;
 	font-size: 1.5pt;
 }
-a[href="#b.c"]._x_._y_ {
+a[href="#b.c"].source_x_.source_y_ {
 	color: green;
 	font-size: 1.5pt;
 }
-@keyframes _z_ {
+@keyframes source_z_ {
   2.5% {color: green;}
 }

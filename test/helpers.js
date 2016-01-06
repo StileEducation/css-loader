@@ -105,9 +105,9 @@ exports.testLocals = function testLocals(name, input, result, query, modules) {
 
 exports.testSingleItem = function testSingleItem(name, input, result, query, modules) {
 	it(name, function(done) {
-		runLoader(cssLoader, input, undefined, {
+		runLoader(cssLoader, input, undefined, !query || typeof query === "string" ? {
 			query: query
-		}, function(err, output) {
+		} : query, function(err, output) {
 			if(err) return done(err);
 			var exports = getEvaluated(output, modules);
 			Array.isArray(exports).should.be.eql(true);
